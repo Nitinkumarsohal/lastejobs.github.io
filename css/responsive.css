@@ -479,7 +479,28 @@
     .c-section .box-style .text p {
         font-size: 10px;
     }
+
+
     
+    .web-section1 .card-style .text .Learn {
+        padding: 5px 18px 4px 18px;
+        font-size: 14px;
+        margin-left: 8px;
+        margin-top: 0px;
+    }
+    .web-section1 .card-style .text p {
+        font-size: 12px;
+        line-height: 19px;
+        font-family: 'Poppins', sans-serif;
+        margin-top: 0px;
+        text-align: justify;
+    }
+    .web-section1 .card-style .text .Learn{
+        overflow: hidden;
+    }
+    .web-section1 .card-style .text .Learn::before {
+        height: 30px;
+    }
     
 }
-
+/* 
