@@ -1514,7 +1514,7 @@ section .Website{
     left: 0%;
     width: 100%;
     background-color: var(--btn-hover);
-    padding: 15px;
+    padding: 5px;
     color: white;
     transition: 0.2s;
     transform: translatey(350px);
@@ -1523,9 +1523,43 @@ section .Website{
 .web-section1 .card-style:hover .text{
     transform: translateY(0px);
 }
+.web-section1 .card-style .text .Learn{
+    padding: 10px 20px 10px 20px;
+    font-size: 16px;
+    margin-left: 12px;
+    outline: none;
+    border: #005cff;
+    border-radius: 5px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    z-index: 7;
+    margin-top: 5px;
+}
+.web-section1 .card-style .text .Learn::before{
+    position: absolute;
+    height: 44px;
+    width:0%;
+    content: '';
+    top: 0%;
+    left: 0%;
+    border-radius: 5px;
+    z-index: -7;
+    transition: 0.2s;
+}
+.web-section1 .card-style .text .Learn:hover{
+    border: 1px solid #005cff;
+}
+.web-section1 .card-style .text .Learn:hover::before{
+    width: 100%;
+    background-color: #005cff;
+}
+
 .web-section1 .card-style .text h4{
     color: white;
-    font-size: 22px;
+    font-size: 20px;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
 }
@@ -1533,7 +1567,8 @@ section .Website{
     font-size: 13px;
     line-height: 24px;
     font-family: 'Poppins', sans-serif;
-    margin-top: 20px;
+    margin-top: 3px;
+    text-align: justify;
 }
 /* web sectionc close  */
 .web-section-2{
