@@ -499,7 +499,7 @@
         overflow: hidden;
     }
     .web-section1 .card-style .text .Learn::before {
-        height: 30px;
+        min-height: 100px;
     }
     
 }
